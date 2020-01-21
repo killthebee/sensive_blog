@@ -1,0 +1,10 @@
+env/
+
+venv/
+.vscode/
+
+
+.env/
+.idea/
+
+.sqlite3/
