@@ -32,7 +32,7 @@ def index(request):
         'most_popular_posts': [serialize_post(post) for post in popular_posts],
         'fresh_posts': [serialize_post(post) for post in fresh_posts],
     }
-    return render(request, 'index.html', context)
+    return render(request, 'blog/index.html', context)
 
 
 def post_detail(request, slug):
