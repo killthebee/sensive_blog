@@ -78,4 +78,4 @@ def contact(request):
         tooltip="Мы здесь",
     ).add_to(folium_map)
     html_map = folium_map._repr_html_()
-    return render(request, 'contact.html', {"html_map": html_map})
+    return render(request, 'blog/contact.html', {"html_map": html_map})
