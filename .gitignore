@@ -10,5 +10,4 @@ venv/
 .sqlite3/
 .db/
 
-static/
 media/
